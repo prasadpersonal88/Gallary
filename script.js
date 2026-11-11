@@ -1,14 +1,14 @@
 // Add your own image files inside images/ and list them here.
 const PHOTOS = [
-  { src: "neha1.jpeg", caption: "A favourite moment" },
-  { src: "neha2.jpeg", caption: "Another memory" },
-  { src: "neha3.jpeg", caption: "One more moment" },
-  { src: "neha4.jpeg", caption: "One more moment" },
-  { src: "neha5.jpeg", caption: "Another memory" },
-  { src: "neha6.jpeg", caption: "One more moment" },
-  { src: "neha7.jpeg", caption: "One more moment" },
-  { src: "neha8.jpeg", caption: "Another memory" },
-  { src: "neha9.jpeg", caption: "One more moment" }
+  { src: "./neha1.jpeg", caption: "A favourite moment" },
+  { src: "./neha2.jpeg", caption: "Another memory" },
+  { src: "./neha3.jpeg", caption: "One more moment" },
+  { src: "./neha4.jpeg", caption: "One more moment" },
+  { src: "./neha5.jpeg", caption: "Another memory" },
+  { src: "./neha6.jpeg", caption: "One more moment" },
+  { src: "./neha7.jpeg", caption: "One more moment" },
+  { src: "./neha8.jpeg", caption: "Another memory" },
+  { src: "./neha9.jpeg", caption: "One more moment" }
 ];
 const img=document.getElementById("photo"), caption=document.getElementById("caption");
 const current=document.getElementById("current"), total=document.getElementById("total");
